@@ -1,0 +1,40 @@
+.link {
+    color: #212121;
+}
+/* header */
+.logo {
+    color: #2196F3;
+}
+
+.nav-link .link {
+    color: #212121;
+}
+
+.nav-link .link:hover,
+.nav-link .link:focus {
+    color: #2196F3;
+}
+
+.auth-link {
+    color: #757575;
+}
+
+/* main */
+.worklist .button {
+    color: #212121;
+    background-color: #F5F4FA;
+}
+
+.worklist .button:hover,
+.worklist .button:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.worklist .title {
+    color: #212121;
+}
+
+.worklist .text {
+    color: #757575;
+}

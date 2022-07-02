@@ -1,40 +1,174 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет акцента #2196f3 */
+/* белый #ffffff */
+/* вторичный цвет фона #f5f4fa */
+
+:root {
+  --primary-text-color: #212121;
+  --second-text-color: #757575;
+  --accent-color: #2196f3;
+  --white: #ffffff;
+  --secondary-bgc: #f5f4fa;
+  --third-bgc: #2F303A;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+}
+
 .link {
-    color: #212121;
+  color: var(--primary-text-color);
 }
 /* header */
+.logo-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+}
+
 .logo {
-    color: #2196F3;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
 }
 
 .nav-link .link {
-    color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .nav-link .link:hover,
 .nav-link .link:focus {
-    color: #2196F3;
+  color: var(--accent-color);
 }
 
-.auth-link {
-    color: #757575;
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+    color: var(--second-text-color);
+
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
 }
 
 /* main */
+.button {
+  cursor: pointer;
+}
+
 .worklist .button {
-    color: #212121;
-    background-color: #F5F4FA;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-bgc);
 }
 
 .worklist .button:hover,
 .worklist .button:focus {
-    color: #FFFFFF;
-    background-color: #2196F3;
+  color: var(--white);
+  background-color: var(--accent-color);
 }
 
 .worklist .title {
-    color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
 }
 
 .worklist .text {
-    color: #757575;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--second-text-color);
 }
+
+/* index.html */
+
+/* hero */
+.hero-section {
+    background-color: var(--third-bgc);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white)
+}
+
+.hero-button {
+  color: var(--white);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--accent-color);
+  background-color: var(--white);
+}
+
+.benefits .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
+.benefits .text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--second-text-color);
+}
+
+.services .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.our-team {
+    background-color: var(--secondary-bgc);
+}
+
+.our-team .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.our-team .list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.our-team .text {
+  font-size: 16px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+

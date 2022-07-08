@@ -12,39 +12,39 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav class="nav-link">
-        <a href="/" class="logo-link"><span class="logo">Web</span>Studio</a>
-        <ul>
-          <li><a href="index.html" class="link">Студия</a></li>
+    <header class="header">
+      <nav class="header-nav">
+        <a href="index.html" class="black-logo link"
+          ><span class="blue-logo">Web</span>Studio</a
+        >
+        <ul class="nav-list">
+          <li><a href="index.html" class="link current">Студия</a></li>
           <li><a href="portfolio.html" class="link">Портфолио</a></li>
           <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
+      <ul class="contact-list">
         <li>
-          <a href="mailto:info@devstudio.com" class="contact-link"
+          <a href="mailto:info@devstudio.com" class="link"
             >info@devstudio.com</a
           >
         </li>
-        <li>
-          <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
-        </li>
+        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
     <main>
       <!--Герой-->
-      <section class="hero-section">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="hero-button">Заказать услугу</button>
+      <section class="hero">
+        <h1 class="title">Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="button">Заказать услугу</button>
       </section>
 
       <!--Преимущества-->
-      <section class="benefits">
-        <h2>Преимущества</h2>
-        <ul>
+      <section class="feature">
+        <h2 class="title">Преимущества</h2>
+        <ul class="feature-list">
           <li>
             <h2 class="title">Внимание к деталям</h2>
             <p class="text">
@@ -79,7 +79,7 @@
       <!--Чем мы занимаемся-->
       <section class="services">
         <h2 class="title">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="services-list">
           <li>
             <img src="/images/coding.png" alt="Написание кода" width="370" />
           </li>
@@ -101,41 +101,49 @@
       </section>
 
       <!--Наша команда-->
-      <section class="our-team">
+      <section class="team">
         <h2 class="title">Наша команда</h2>
-        <ul>
+        <ul class="team-list">
           <li>
-            <img src="/images/Igor.jpg" alt="Фото работника" width="270" />
-            <h3 class="list-title">Игорь Демьяненко</h3>
+            <img src="/images/igor.jpg" alt="Фото работника" width="270" />
+            <h3 class="title">Игорь Демьяненко</h3>
             <p class="text">Product Designer</p>
           </li>
           <li>
             <img src="/images/Olga.jpg" alt="Фото работника" width="270" />
-            <h3 class="list-title">Ольга Репина</h3>
+            <h3 class="title">Ольга Репина</h3>
             <p class="text">Frontend Developer</p>
           </li>
           <li>
             <img src="/images/Nikolay.jpg" alt="Фото работника" width="270" />
-            <h3 class="list-title">Николай Тарасов</h3>
+            <h3 class="title">Николай Тарасов</h3>
             <p class="text">Marketing</p>
           </li>
           <li>
             <img src="/images/Michael.jpg" alt="Фото работника" width="270" />
-            <h3 class="list-title">Михаил Ермаков</h3>
+            <h3 class="title">Михаил Ермаков</h3>
             <p class="text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <a href="/" class="logo-link"><span class="logo">Web</span>Studio</a>
+    <footer class="footer">
+      <a href="/" class="white-logo link"
+        ><span class="blue-logo">Web</span>Studio</a
+      >
       <address>
-        г. Киев, пр-т Леси Украинки, 26 <br />
-        <a href="mailto:info@example.com" class="contact-link"
+        <a
+          href="https://goo.gl/maps/AY5JssXBydzWgsubA"
+          class="footer-address link"
+          >г. Киев, пр-т Леси Украинки, 26</a
+        >
+        <a href="mailto:info@example.com" class="footer-contacts link"
           >info@example.com</a
-        ><br />
-        <a href="tel:+380991111111" class="contact-link">+38 099 111 11 11</a>
+        >
+        <a href="tel:+380991111111" class="footer-contacts link"
+          >+38 099 111 11 11</a
+        >
       </address>
     </footer>
   </body>

@@ -100,6 +100,10 @@ ul {
 .hero .button {
   color: var(--white);
   background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 
 .hero .button:hover,
@@ -155,7 +159,7 @@ ul {
 
 .team-list .text {
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   color: var(--second-text-color);
 }
 
@@ -175,16 +179,16 @@ ul {
 
 .footer-address {
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   color: var(--white);
 }
 
 .footer-contacts {
-  font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--second-text-color);
+  font-style: normal;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-contacts:hover,
@@ -196,6 +200,10 @@ ul {
 
 /* filter buttons */
 .button-list .button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
   color: var(--primary-text-color);
   background-color: var(--secondary-bgc);
 }
